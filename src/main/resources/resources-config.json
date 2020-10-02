@@ -1,0 +1,21 @@
+{
+  "resources":[
+    {"pattern":"\\QMETA-INF/services/io.smallrye.config.SmallRyeConfigFactory\\E"},
+    {"pattern":"\\QMETA-INF/services/io.smallrye.mutiny.infrastructure.MultiInterceptor\\E"},
+    {"pattern":"\\QMETA-INF/services/io.smallrye.mutiny.infrastructure.UniInterceptor\\E"},
+    {"pattern":"\\QMETA-INF/services/io.vertx.core.spi.FutureFactory\\E"},
+    {"pattern":"\\QMETA-INF/services/jdk.vm.ci.hotspot.HotSpotJVMCIBackendFactory\\E"},
+    {"pattern":"\\QMETA-INF/services/jdk.vm.ci.services.JVMCIServiceLocator\\E"},
+    {"pattern":"\\QMETA-INF/services/org.eclipse.microprofile.config.spi.Converter\\E"},
+    {"pattern":"\\QMETA-INF/services/org.eclipse.microprofile.context.spi.ContextManagerExtension\\E"},
+    {"pattern":"\\QMETA-INF/services/org.eclipse.microprofile.context.spi.ThreadContextProvider\\E"},
+    {"pattern":"\\Qai/onnxruntime/native/linux-x64/libonnxruntime.so\\E"},
+    {"pattern":"\\Qai/onnxruntime/native/linux-x64/libonnxruntime4j_jni.so\\E"},
+    {"pattern":"\\Qai/onnxruntime/native/osx-x64/libonnxruntime.dylib\\E"},
+    {"pattern":"\\Qai/onnxruntime/native/osx-x64/libonnxruntime4j_jni.dylib\\E"},
+    {"pattern":"\\Qapplication.properties\\E"},
+    {"pattern":"\\Qorg/jboss/threads/Version.properties\\E"},
+    {"pattern":"\\Qorg/slf4j/impl/StaticLoggerBinder.class\\E"}
+  ],
+  "bundles":[]
+}

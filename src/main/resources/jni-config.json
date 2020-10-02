@@ -1,0 +1,70 @@
+[
+  {
+    "name":"ai.onnxruntime.NodeInfo",
+    "methods":[{"name":"<init>","parameterTypes":["java.lang.String","ai.onnxruntime.ValueInfo"] }]
+  },
+  {
+    "name":"ai.onnxruntime.NodeInfo[]"
+  },
+  {
+    "name":"ai.onnxruntime.OnnxJavaType",
+    "methods":[{"name":"mapFromOnnxTensorType","parameterTypes":["ai.onnxruntime.TensorInfo$OnnxTensorType"] }]
+  },
+  {
+    "name":"ai.onnxruntime.OnnxTensor",
+    "methods":[{"name":"<init>","parameterTypes":["long","long","ai.onnxruntime.TensorInfo"] }]
+  },
+  {
+    "name":"ai.onnxruntime.OnnxValue"
+  },
+  {
+    "name":"ai.onnxruntime.OnnxValue[]"
+  },
+  {
+    "name":"ai.onnxruntime.OrtEnvironment",
+    "methods":[
+      {"name": "<init>", "parameterTypes":["ai.onnxruntime.OrtLoggingLevel","java.lang.String"]},
+      {"name": "createHandle", "parameterTypes":["long", "int", "java.lang.String"]}
+    ]
+  },
+  {
+    "name":"ai.onnxruntime.TensorInfo",
+    "methods":[{"name":"<init>","parameterTypes":["long[]","ai.onnxruntime.OnnxJavaType","ai.onnxruntime.TensorInfo$OnnxTensorType"] }]
+  },
+  {
+    "name":"ai.onnxruntime.TensorInfo$OnnxTensorType",
+    "methods":[{"name":"mapFromInt","parameterTypes":["int"] }]
+  },
+  {
+    "name":"java.lang.ClassLoader",
+    "methods":[
+      {"name":"getPlatformClassLoader","parameterTypes":[] },
+      {"name":"loadClass","parameterTypes":["java.lang.String"] }
+    ]
+  },
+  {
+    "name":"java.lang.ClassNotFoundException"
+  },
+  {
+    "name":"java.lang.NoSuchMethodError"
+  },
+  {
+    "name":"java.lang.String"
+  },
+  {
+    "name":"java.lang.String[]"
+  },
+  {
+    "name":"sun.management.VMManagementImpl",
+    "fields":[
+      {"name":"compTimeMonitoringSupport"},
+      {"name":"currentThreadCpuTimeSupport"},
+      {"name":"objectMonitorUsageSupport"},
+      {"name":"otherThreadCpuTimeSupport"},
+      {"name":"remoteDiagnosticCommandsSupport"},
+      {"name":"synchronizerUsageSupport"},
+      {"name":"threadAllocatedMemorySupport"},
+      {"name":"threadContentionMonitoringSupport"}
+    ]
+  }
+]
